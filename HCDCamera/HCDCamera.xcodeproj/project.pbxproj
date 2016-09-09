@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95BD8731A168CEA1E6D185B8 /* libPods-HCDCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9390EAD092D8DBF52211C5FE /* libPods-HCDCamera.a */; };
+		A344100C1D7FB5C0005FE037 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A34410091D7FB5C0005FE037 /* GPUImageBeautifyFilter.m */; };
+		A344100D1D7FB5C0005FE037 /* GPUImageReliefFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A344100B1D7FB5C0005FE037 /* GPUImageReliefFilter.m */; };
+		A34410111D7FC611005FE037 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = A34410101D7FC611005FE037 /* UIColor+HexString.m */; };
+		A34410151D7FEC2C005FE037 /* HCDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A34410141D7FEC2C005FE037 /* HCDIndicatorView.m */; };
+		A34410181D801544005FE037 /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A34410171D801544005FE037 /* UIImage+ColorImage.m */; };
+		A344101B1D801A47005FE037 /* UIButton+HCDCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = A344101A1D801A47005FE037 /* UIButton+HCDCamera.m */; };
+		A389A1C01D815CC80067A572 /* GPUImageNoneFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A389A1BF1D815CC80067A572 /* GPUImageNoneFilter.m */; };
+		A38DD6461D82585200B0AB20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A38DD6451D82585200B0AB20 /* Default-568h@2x.png */; };
 		A39286B31D7EC86B00F5E97E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39286B21D7EC86B00F5E97E /* main.m */; };
 		A39286B61D7EC86B00F5E97E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39286B51D7EC86B00F5E97E /* AppDelegate.m */; };
 		A39286B91D7EC86B00F5E97E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39286B81D7EC86B00F5E97E /* ViewController.m */; };
@@ -35,6 +44,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		209C74DDD22E4AB2F7F38F2D /* Pods-HCDCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCDCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCDCamera/Pods-HCDCamera.release.xcconfig"; sourceTree = "<group>"; };
+		4244A2056BB07B10755E70CF /* Pods-HCDCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCDCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCDCamera/Pods-HCDCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		9390EAD092D8DBF52211C5FE /* libPods-HCDCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HCDCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34410081D7FB5C0005FE037 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		A34410091D7FB5C0005FE037 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		A344100A1D7FB5C0005FE037 /* GPUImageReliefFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageReliefFilter.h; sourceTree = "<group>"; };
+		A344100B1D7FB5C0005FE037 /* GPUImageReliefFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageReliefFilter.m; sourceTree = "<group>"; };
+		A344100F1D7FC611005FE037 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		A34410101D7FC611005FE037 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		A34410131D7FEC2C005FE037 /* HCDIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDIndicatorView.h; sourceTree = "<group>"; };
+		A34410141D7FEC2C005FE037 /* HCDIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDIndicatorView.m; sourceTree = "<group>"; };
+		A34410161D801544005FE037 /* UIImage+ColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		A34410171D801544005FE037 /* UIImage+ColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
+		A34410191D801A47005FE037 /* UIButton+HCDCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HCDCamera.h"; sourceTree = "<group>"; };
+		A344101A1D801A47005FE037 /* UIButton+HCDCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HCDCamera.m"; sourceTree = "<group>"; };
+		A389A1BE1D815CC80067A572 /* GPUImageNoneFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageNoneFilter.h; sourceTree = "<group>"; };
+		A389A1BF1D815CC80067A572 /* GPUImageNoneFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageNoneFilter.m; sourceTree = "<group>"; };
+		A38DD6451D82585200B0AB20 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A39286AE1D7EC86A00F5E97E /* HCDCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCDCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39286B21D7EC86B00F5E97E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A39286B41D7EC86B00F5E97E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BD8731A168CEA1E6D185B8 /* libPods-HCDCamera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1004BA10E9A746F715732DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9390EAD092D8DBF52211C5FE /* libPods-HCDCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A34410071D7FB58F005FE037 /* filter */ = {
+			isa = PBXGroup;
+			children = (
+				A34410081D7FB5C0005FE037 /* GPUImageBeautifyFilter.h */,
+				A34410091D7FB5C0005FE037 /* GPUImageBeautifyFilter.m */,
+				A344100A1D7FB5C0005FE037 /* GPUImageReliefFilter.h */,
+				A344100B1D7FB5C0005FE037 /* GPUImageReliefFilter.m */,
+				A389A1BE1D815CC80067A572 /* GPUImageNoneFilter.h */,
+				A389A1BF1D815CC80067A572 /* GPUImageNoneFilter.m */,
+			);
+			path = filter;
+			sourceTree = "<group>";
+		};
+		A344100E1D7FC5DF005FE037 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				A34410161D801544005FE037 /* UIImage+ColorImage.h */,
+				A34410171D801544005FE037 /* UIImage+ColorImage.m */,
+				A344100F1D7FC611005FE037 /* UIColor+HexString.h */,
+				A34410101D7FC611005FE037 /* UIColor+HexString.m */,
+				A34410191D801A47005FE037 /* UIButton+HCDCamera.h */,
+				A344101A1D801A47005FE037 /* UIButton+HCDCamera.m */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		A34410121D7FEBF6005FE037 /* customView */ = {
+			isa = PBXGroup;
+			children = (
+				A34410131D7FEC2C005FE037 /* HCDIndicatorView.h */,
+				A34410141D7FEC2C005FE037 /* HCDIndicatorView.m */,
+			);
+			path = customView;
+			sourceTree = "<group>";
+		};
 		A39286A51D7EC86A00F5E97E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +156,8 @@
 				A39286CA1D7EC86B00F5E97E /* HCDCameraTests */,
 				A39286D51D7EC86B00F5E97E /* HCDCameraUITests */,
 				A39286AF1D7EC86A00F5E97E /* Products */,
+				E06466C312E6FE5141ECEB2B /* Pods */,
+				1004BA10E9A746F715732DF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +174,9 @@
 		A39286B01D7EC86B00F5E97E /* HCDCamera */ = {
 			isa = PBXGroup;
 			children = (
+				A34410121D7FEBF6005FE037 /* customView */,
+				A344100E1D7FC5DF005FE037 /* helper */,
+				A34410071D7FB58F005FE037 /* filter */,
 				A39286B41D7EC86B00F5E97E /* AppDelegate.h */,
 				A39286B51D7EC86B00F5E97E /* AppDelegate.m */,
 				A39286B71D7EC86B00F5E97E /* ViewController.h */,
@@ -117,6 +193,7 @@
 		A39286B11D7EC86B00F5E97E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A38DD6451D82585200B0AB20 /* Default-568h@2x.png */,
 				A39286B21D7EC86B00F5E97E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +217,15 @@
 			path = HCDCameraUITests;
 			sourceTree = "<group>";
 		};
+		E06466C312E6FE5141ECEB2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4244A2056BB07B10755E70CF /* Pods-HCDCamera.debug.xcconfig */,
+				209C74DDD22E4AB2F7F38F2D /* Pods-HCDCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A39286DB1D7EC86B00F5E97E /* Build configuration list for PBXNativeTarget "HCDCamera" */;
 			buildPhases = (
+				F68025DBFF16EB25F8F9527E /* [CP] Check Pods Manifest.lock */,
 				A39286AA1D7EC86A00F5E97E /* Sources */,
 				A39286AB1D7EC86A00F5E97E /* Frameworks */,
 				A39286AC1D7EC86A00F5E97E /* Resources */,
+				151D561525B14F66AB2BC174 /* [CP] Embed Pods Frameworks */,
+				4FCB54846436976CBE8F69AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39286C11D7EC86B00F5E97E /* LaunchScreen.storyboard in Resources */,
+				A38DD6461D82585200B0AB20 /* Default-568h@2x.png in Resources */,
 				A39286BE1D7EC86B00F5E97E /* Assets.xcassets in Resources */,
 				A39286BC1D7EC86B00F5E97E /* Main.storyboard in Resources */,
 			);
@@ -265,14 +355,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		151D561525B14F66AB2BC174 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCDCamera/Pods-HCDCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FCB54846436976CBE8F69AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCDCamera/Pods-HCDCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68025DBFF16EB25F8F9527E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A39286AA1D7EC86A00F5E97E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A389A1C01D815CC80067A572 /* GPUImageNoneFilter.m in Sources */,
+				A34410111D7FC611005FE037 /* UIColor+HexString.m in Sources */,
 				A39286B91D7EC86B00F5E97E /* ViewController.m in Sources */,
+				A344100C1D7FB5C0005FE037 /* GPUImageBeautifyFilter.m in Sources */,
 				A39286B61D7EC86B00F5E97E /* AppDelegate.m in Sources */,
 				A39286B31D7EC86B00F5E97E /* main.m in Sources */,
+				A344101B1D801A47005FE037 /* UIButton+HCDCamera.m in Sources */,
+				A34410181D801544005FE037 /* UIImage+ColorImage.m in Sources */,
+				A34410151D7FEC2C005FE037 /* HCDIndicatorView.m in Sources */,
+				A344100D1D7FB5C0005FE037 /* GPUImageReliefFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +556,7 @@
 		};
 		A39286DC1D7EC86B00F5E97E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4244A2056BB07B10755E70CF /* Pods-HCDCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HCDCamera/Info.plist;
@@ -422,6 +568,7 @@
 		};
 		A39286DD1D7EC86B00F5E97E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209C74DDD22E4AB2F7F38F2D /* Pods-HCDCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HCDCamera/Info.plist;
@@ -496,6 +643,7 @@
 				A39286DD1D7EC86B00F5E97E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A39286DE1D7EC86B00F5E97E /* Build configuration list for PBXNativeTarget "HCDCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +652,7 @@
 				A39286E01D7EC86B00F5E97E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A39286E11D7EC86B00F5E97E /* Build configuration list for PBXNativeTarget "HCDCameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +661,7 @@
 				A39286E31D7EC86B00F5E97E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

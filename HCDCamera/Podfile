@@ -1,0 +1,4 @@
+target 'HCDCamera' do
+pod 'Masonry'
+pod 'GPUImage'
+end
