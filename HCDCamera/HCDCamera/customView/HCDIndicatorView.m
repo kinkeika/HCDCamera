@@ -7,7 +7,6 @@
 //
 
 #import "HCDIndicatorView.h"
-#import "UIColor+HexString.h"
 
 #ifndef kScreenWidth
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width

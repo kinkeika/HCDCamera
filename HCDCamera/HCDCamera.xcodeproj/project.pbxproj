@@ -14,6 +14,10 @@
 		A34410151D7FEC2C005FE037 /* HCDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A34410141D7FEC2C005FE037 /* HCDIndicatorView.m */; };
 		A34410181D801544005FE037 /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A34410171D801544005FE037 /* UIImage+ColorImage.m */; };
 		A344101B1D801A47005FE037 /* UIButton+HCDCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = A344101A1D801A47005FE037 /* UIButton+HCDCamera.m */; };
+		A360296E1D87D22700220D64 /* HCDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A360296D1D87D22700220D64 /* HCDProgressView.m */; };
+		A36029721D87FAC400220D64 /* GPUImageGrayFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A36029711D87FAC400220D64 /* GPUImageGrayFilter.m */; };
+		A36029751D87FADE00220D64 /* GPUImageOriginFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A36029741D87FADE00220D64 /* GPUImageOriginFilter.m */; };
+		A36029781D87FB4A00220D64 /* GPUImageBlack_WhiteFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A36029771D87FB4A00220D64 /* GPUImageBlack_WhiteFilter.m */; };
 		A389A1C01D815CC80067A572 /* GPUImageNoneFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A389A1BF1D815CC80067A572 /* GPUImageNoneFilter.m */; };
 		A38DD6461D82585200B0AB20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A38DD6451D82585200B0AB20 /* Default-568h@2x.png */; };
 		A39286B31D7EC86B00F5E97E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39286B21D7EC86B00F5E97E /* main.m */; };
@@ -59,6 +63,15 @@
 		A34410171D801544005FE037 /* UIImage+ColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
 		A34410191D801A47005FE037 /* UIButton+HCDCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HCDCamera.h"; sourceTree = "<group>"; };
 		A344101A1D801A47005FE037 /* UIButton+HCDCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HCDCamera.m"; sourceTree = "<group>"; };
+		A360296C1D87D22700220D64 /* HCDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDProgressView.h; sourceTree = "<group>"; };
+		A360296D1D87D22700220D64 /* HCDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDProgressView.m; sourceTree = "<group>"; };
+		A360296F1D87E2B900220D64 /* HCDCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HCDCamera-Prefix.pch"; sourceTree = "<group>"; };
+		A36029701D87FAC400220D64 /* GPUImageGrayFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageGrayFilter.h; sourceTree = "<group>"; };
+		A36029711D87FAC400220D64 /* GPUImageGrayFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageGrayFilter.m; sourceTree = "<group>"; };
+		A36029731D87FADE00220D64 /* GPUImageOriginFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageOriginFilter.h; sourceTree = "<group>"; };
+		A36029741D87FADE00220D64 /* GPUImageOriginFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageOriginFilter.m; sourceTree = "<group>"; };
+		A36029761D87FB4A00220D64 /* GPUImageBlack_WhiteFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBlack_WhiteFilter.h; sourceTree = "<group>"; };
+		A36029771D87FB4A00220D64 /* GPUImageBlack_WhiteFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBlack_WhiteFilter.m; sourceTree = "<group>"; };
 		A389A1BE1D815CC80067A572 /* GPUImageNoneFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageNoneFilter.h; sourceTree = "<group>"; };
 		A389A1BF1D815CC80067A572 /* GPUImageNoneFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageNoneFilter.m; sourceTree = "<group>"; };
 		A38DD6451D82585200B0AB20 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -123,6 +136,12 @@
 				A344100B1D7FB5C0005FE037 /* GPUImageReliefFilter.m */,
 				A389A1BE1D815CC80067A572 /* GPUImageNoneFilter.h */,
 				A389A1BF1D815CC80067A572 /* GPUImageNoneFilter.m */,
+				A36029701D87FAC400220D64 /* GPUImageGrayFilter.h */,
+				A36029711D87FAC400220D64 /* GPUImageGrayFilter.m */,
+				A36029731D87FADE00220D64 /* GPUImageOriginFilter.h */,
+				A36029741D87FADE00220D64 /* GPUImageOriginFilter.m */,
+				A36029761D87FB4A00220D64 /* GPUImageBlack_WhiteFilter.h */,
+				A36029771D87FB4A00220D64 /* GPUImageBlack_WhiteFilter.m */,
 			);
 			path = filter;
 			sourceTree = "<group>";
@@ -145,6 +164,8 @@
 			children = (
 				A34410131D7FEC2C005FE037 /* HCDIndicatorView.h */,
 				A34410141D7FEC2C005FE037 /* HCDIndicatorView.m */,
+				A360296C1D87D22700220D64 /* HCDProgressView.h */,
+				A360296D1D87D22700220D64 /* HCDProgressView.m */,
 			);
 			path = customView;
 			sourceTree = "<group>";
@@ -195,6 +216,7 @@
 			children = (
 				A38DD6451D82585200B0AB20 /* Default-568h@2x.png */,
 				A39286B21D7EC86B00F5E97E /* main.m */,
+				A360296F1D87E2B900220D64 /* HCDCamera-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -411,9 +433,13 @@
 				A389A1C01D815CC80067A572 /* GPUImageNoneFilter.m in Sources */,
 				A34410111D7FC611005FE037 /* UIColor+HexString.m in Sources */,
 				A39286B91D7EC86B00F5E97E /* ViewController.m in Sources */,
+				A36029751D87FADE00220D64 /* GPUImageOriginFilter.m in Sources */,
+				A360296E1D87D22700220D64 /* HCDProgressView.m in Sources */,
 				A344100C1D7FB5C0005FE037 /* GPUImageBeautifyFilter.m in Sources */,
+				A36029781D87FB4A00220D64 /* GPUImageBlack_WhiteFilter.m in Sources */,
 				A39286B61D7EC86B00F5E97E /* AppDelegate.m in Sources */,
 				A39286B31D7EC86B00F5E97E /* main.m in Sources */,
+				A36029721D87FAC400220D64 /* GPUImageGrayFilter.m in Sources */,
 				A344101B1D801A47005FE037 /* UIButton+HCDCamera.m in Sources */,
 				A34410181D801544005FE037 /* UIImage+ColorImage.m in Sources */,
 				A34410151D7FEC2C005FE037 /* HCDIndicatorView.m in Sources */,
@@ -559,6 +585,7 @@
 			baseConfigurationReference = 4244A2056BB07B10755E70CF /* Pods-HCDCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "HCDCamera/HCDCamera-Prefix.pch";
 				INFOPLIST_FILE = HCDCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cheaterhu.HCDCamera;
@@ -571,6 +598,7 @@
 			baseConfigurationReference = 209C74DDD22E4AB2F7F38F2D /* Pods-HCDCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "HCDCamera/HCDCamera-Prefix.pch";
 				INFOPLIST_FILE = HCDCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cheaterhu.HCDCamera;

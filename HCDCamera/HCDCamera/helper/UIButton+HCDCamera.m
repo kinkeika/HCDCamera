@@ -7,8 +7,6 @@
 //
 
 #import "UIButton+HCDCamera.h"
-#import "UIImage+ColorImage.h"
-#import "UIColor+HexString.h"
 
 @implementation UIButton (HCDCamera)
 +(instancetype)buttonWithMyType

@@ -8,6 +8,7 @@
 
 #import <GPUImage/GPUImage.h>
 
+//自然镜头、无滤镜效果
 @interface GPUImageNoneFilter : GPUImageFilterGroup
 
 @end

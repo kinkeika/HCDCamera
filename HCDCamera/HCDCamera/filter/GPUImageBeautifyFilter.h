@@ -10,6 +10,7 @@
 
 @class GPUImageCombinationFilter;
 
+//美颜效果
 @interface GPUImageBeautifyFilter : GPUImageFilterGroup {
     GPUImageBilateralFilter *bilateralFilter;
     GPUImageCannyEdgeDetectionFilter *cannyEdgeFilter;

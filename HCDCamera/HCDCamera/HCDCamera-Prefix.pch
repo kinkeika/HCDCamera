@@ -1,0 +1,28 @@
+//
+//  HCDCamera-Prefix.pch
+//  HCDCamera
+//
+//  Created by cheaterhu on 16/9/13.
+//  Copyright © 2016年 hcd. All rights reserved.
+//
+
+#ifndef HCDCamera_Prefix_pch
+#define HCDCamera_Prefix_pch
+
+#ifdef __OBJC__
+
+#ifdef DEBUG
+#define HCDLog(format, ...) NSLog(format, ##__VA_ARGS__)
+#else
+#define NSLog(format, ...)
+#define HCDLog(format, ...)
+#endif
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "UIColor+HexString.h"
+#import "UIImage+ColorImage.h"
+#endif
+
+#endif /* HCDCamera_Prefix_pch */
